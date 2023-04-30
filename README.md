@@ -17,3 +17,5 @@ These tables were then saved and reviewed to create an ERD:
 Once the ERD was clear, the data was loaded into the database using PostGres SQL.
 
 *Refer to crowdfunding_db_schema.sql file*
+
+An assignment for Monash University's Data Analytics Bootcamp (2023)
