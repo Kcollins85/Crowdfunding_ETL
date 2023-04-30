@@ -1,21 +1,19 @@
 # Crowdfunding_ETL
 
-## For the ETL mini project, I practiced building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
+## For the ETL mini project, the objective was to practice extracting data, creating individual tables based on the homework requirements and load into a database.
 
-From a original CSV file, I created various dataframes to seperate the data into smaller datasets and saved these smaller datasets as CSV files:
+From a original CSV file, I took the data that was provided, broke it out into respective tables.  
 - Create the Category DataFrame
 - Create the Subcategory DataFrame
 - Create the Campaign DataFrame
 - Create the Contacts DataFrame
-
-I also created a database based on the original CSV file:
 - Create the Crowdfunding Database
 
 *Refer to ETL_Mini_Project_KCollins.ipynb file*
 
-After the data was transformed into the smaller the datasets, I created an ERD to show how the data was all related:
+These tables were then saved and reviewed to create an ERD:
 ![image](https://user-images.githubusercontent.com/116396662/235331061-fa58c58a-73ed-4d72-a7e5-610845e14a60.png)
 
-Then, using PostGres SQL a table schema was created, with this schema the smaller CSV files were loaded into a Postgres database.
+Once the ERD was clear, the data was loaded into the database using PostGres SQL.
 
 *Refer to crowdfunding_db_schema.sql file*
