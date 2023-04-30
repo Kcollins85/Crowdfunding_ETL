@@ -2,7 +2,7 @@
 
 ## For the ETL mini project, I practiced building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
 
-From a original CSV file, I created various dataframes to seperated the data into smaller datasets and saved as CSV files:
+From a original CSV file, I created various dataframes to seperate the data into smaller datasets and saved these smaller datasets as CSV files:
 - Create the Category DataFrame
 - Create the Subcategory DataFrame
 - Create the Campaign DataFrame
